@@ -14,5 +14,6 @@ To run the script type in the following
 This code will provide tables and graphs of revenue for the next 12 months and 10 years.
 
 Here is a sample image
-![Alt text](https://github.com/fei.ngc/revenue-calculator/Figure_1.jpeg?raw=true)
+
+![Figure_1](https://github.com/user-attachments/assets/c90872b9-d7a4-49d1-b4fe-55c7cb7a9661)
 
