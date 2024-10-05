@@ -8,7 +8,8 @@ After that, please run the following in the windows command line to install the 
     py -m pip install matplotlib
 
 To run the script type in the following
-    py revenue_calc.py
+
+*    py revenue_calc.py
 
 This code will provide tables and graphs of revenue for the next 12 months and 10 years.
 
