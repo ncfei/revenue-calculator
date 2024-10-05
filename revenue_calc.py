@@ -76,9 +76,11 @@ xpoints = (1,2,3,4,5,6,7,8,9,10,11,12)
 ax[0].bar(xpoints,mon_revenue[0:12], label=xpoints)
 ax[0].set_ylabel('Revenue ($) ')
 ax[0].set_xlabel('Month')
-ax[0].set_title('Monthly Revenue ($)')
-txt = 'Setup fee: '+ str(setup_fee) + '\nMonthly fee:' + str(monthly_fee) + '\nNew Customer: ' + str(new_customer) + '\nchurn rate:' + str(churn_rate)
-ax[0].text(1,9000,txt,color='red')
+
+txt = '  Setup fee: '+ str(setup_fee) + ', Monthly fee:' + str(monthly_fee) + ', New Customer: ' + str(new_customer) + ', churn rate:' + str(churn_rate)
+#ax[0].text(1,15000,txt,color='red')
+ax[0].set_title('Monthly Revenue ($)\n\n' + txt)
+
 rects = ax[0].patches
 labels = mon_revenue
 for rect, label in zip(rects, labels):
